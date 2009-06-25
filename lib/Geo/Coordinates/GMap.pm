@@ -2,12 +2,12 @@ package Geo::Coordinates::GMap;
 
 =head1 NAME
 
-Geo::Cordinates::GMap - Routines for converting decimal lat/lon to Google
+Geo::Coordinates::GMap - Routines for converting decimal lat/lon to Google
 Map tiles, and back again.
 
 =head1 SYNOPSIS
 
-    use Geo::Cordinates::GMap;
+    use Geo::Coordinates::GMap;
     my ($tile_x, $tile_y, $x, $y) = coord_to_tile( $lat, $lon, $zoom );
 
 =head1 DESCRIPTION
@@ -27,7 +27,7 @@ This module makes this proces simple and accurate.
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Math::Trig;
 
