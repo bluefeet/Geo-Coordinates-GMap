@@ -16,6 +16,5 @@ no_index:
     - inc
     - t
 requires:
-  Math::Trig: 0
   perl: 5.8.3
-version: 0.02
+version: 0.03
