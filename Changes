@@ -1,6 +1,8 @@
 Revision history for Perl extension Geo::Coordinates::GMap.
 
 {{$NEXT}}
+
+0.04      2010-06-23
  - Use Dist::Zilla to build distro.
 
 0.03 :
