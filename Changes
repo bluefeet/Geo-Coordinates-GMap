@@ -1,5 +1,8 @@
 Revision history for Perl extension Geo::Coordinates::GMap.
 
+{{$NEXT}}
+ - Use Dist::Zilla to build distro.
+
 0.03 :
  - Output tile_x and tile_y as floats.
  - Move pixel xy calculation in to the new gmap_tile_xy().

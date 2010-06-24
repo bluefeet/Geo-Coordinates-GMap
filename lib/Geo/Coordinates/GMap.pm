@@ -1,9 +1,10 @@
 package Geo::Coordinates::GMap;
+use strict;
+use warnings;
 
 =head1 NAME
 
-Geo::Coordinates::GMap - Routines for converting decimal lat/lon to Google
-Map tiles, and back again.
+Geo::Coordinates::GMap - Routines for converting decimal lat/lon to Google Map tiles, and back again.
 
 =head1 SYNOPSIS
 
@@ -25,11 +26,6 @@ values on those tiles.
 This module makes this proces simple and accurate.
 
 =cut
-
-use strict;
-use warnings;
-
-our $VERSION = '0.03';
 
 use Math::Trig;
 
@@ -136,10 +132,10 @@ lat/lon decimal coordinates.
 
 =head1 AUTHOR
 
-Aran Clary Deltac <bluefeet@cpan.org>
+Aran Clary Deltac <bluefeet@gmail.com>
 
 =head1 LICENSE
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 

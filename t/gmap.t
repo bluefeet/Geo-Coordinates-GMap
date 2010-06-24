@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use Test::More qw( no_plan );
+use Test::More;
 
 BEGIN {
     use_ok('Geo::Coordinates::GMap');
@@ -32,3 +32,4 @@ BEGIN {
     is( $y, 192, 'y is 192' );
 }
 
+done_testing;
