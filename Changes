@@ -1,6 +1,8 @@
 Revision history for Perl extension Geo::Coordinates::GMap.
 
 {{$NEXT}}
+
+0.05      2011-03-08
  - Adjust depencies so that Perl 5.6.2 isn't tested with its old
    version of exporter.
  - Spelling fixes in the docs.
