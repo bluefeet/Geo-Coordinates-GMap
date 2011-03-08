@@ -23,7 +23,7 @@ So, I needed to generate static map tile images.  But, to do this, I needed a
 way to convert my decimal lat/lon points in to tile numbers, and the pixel
 values on those tiles.
 
-This module makes this proces simple and accurate.
+This module makes this process simple and accurate.
 
 =cut
 
@@ -42,7 +42,7 @@ our @EXPORT = qw(
 
     my ($tile_x, $tile_y) = coord_to_gmap_tile( $lat, $lon, $zoom );
 
-Given a decimal latitude and longitude, and a google maps zoom level (0 being farthest away
+Given a decimal latitude and longitude, and a Google Maps zoom level (0 being farthest away
 and 20 being the closest that I'm aware of that you can get), this function will return the
 GMap tile location as a fractional x and y coordinate.
 
@@ -75,7 +75,7 @@ sub coord_to_gmap_tile {
 
     my ($new_tile_x, $new_tile_y) = zoom_gmap_tile( $tile_x, $tile_y, $old_zoom, $new_zoom );
 
-Converts fractional tile coordinates, as craated by coord_to_gmap_tile(), from one
+Converts fractional tile coordinates, as created by coord_to_gmap_tile(), from one
 zoom level to another.
 
 =cut
