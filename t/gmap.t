@@ -32,4 +32,10 @@ BEGIN {
     is( $y, 192, 'y is 192' );
 }
 
+{
+    my ($x, $y) = gmap_tile_xy( 1.50, 5.75, 2 );
+    is( $x, 256, 'x is 256' );
+    is( $y, 384, 'y is 384' );
+}
+
 done_testing;
