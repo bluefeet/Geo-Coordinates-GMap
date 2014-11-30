@@ -57,8 +57,10 @@ the scale will default to C<1>.
 
 =over
 
-=item Implement a routine to convert tile coordinates back in to
-lat/lon decimal coordinates.
+=item *
+
+Implement a routine to convert tile coordinates back in to lat/lon decimal
+coordinates.
 
 =back
 

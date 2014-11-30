@@ -131,8 +131,10 @@ __END__
 
 =over
 
-=item Implement a routine to convert tile coordinates back in to
-lat/lon decimal coordinates.
+=item *
+
+Implement a routine to convert tile coordinates back in to lat/lon decimal
+coordinates.
 
 =back
 
