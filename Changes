@@ -1,6 +1,8 @@
 Revision history for Perl extension Geo::Coordinates::GMap.
 
 {{$NEXT}}
+
+0.07      2014-11-29
  - Support the scale argument in gmap_tile_xy() in order to produce
    high-res tiles.
 
