@@ -1,5 +1,6 @@
 package Geo::Coordinates::GMap;
-use strictures 1;
+
+$Geo::Coordinates::GMap::VERSION = '0.07';
 
 =head1 NAME
 
@@ -27,6 +28,7 @@ This module makes this process simple and accurate.
 
 =cut
 
+use strictures 2;
 use Math::Trig;
 
 use Exporter qw( import );
