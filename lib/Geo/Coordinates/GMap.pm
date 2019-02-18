@@ -1,6 +1,6 @@
 package Geo::Coordinates::GMap;
 
-$Geo::Coordinates::GMap::VERSION = '0.07';
+$Geo::Coordinates::GMap::VERSION = '0.08';
 
 =head1 NAME
 
