@@ -43,6 +43,7 @@
       "runtime" : {
          "requires" : {
             "Exporter" : "0",
+            "perl" : "5.008001",
             "strictures" : "2.000000"
          }
       },
