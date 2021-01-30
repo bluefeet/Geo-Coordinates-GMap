@@ -140,9 +140,16 @@ coordinates.
 
 =back
 
+=head1 SUPPORT
+
+Please submit bugs and feature requests to the
+Geo-Coordinates-GMap GitHub issue tracker:
+
+L<https://github.com/bluefeet/Geo-Coordinates-GMap/issues>
+
 =head1 AUTHOR
 
-Aran Clary Deltac <bluefeetE<64>gmail.com>
+  Aran Clary Deltac <bluefeet@gmail.com>
 
 =head1 LICENSE
 
