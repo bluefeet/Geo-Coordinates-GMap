@@ -5,10 +5,12 @@ Map tiles, and back again.
 
 # SYNOPSIS
 
-    use Geo::Coordinates::GMap;
-    my ($tile_x, $tile_y) = coord_to_gmap_tile( $lat, $lon, $zoom );
-    my ($new_tile_x, $new_tile_y) = zoom_gmap_tile( $tile_x, $tile_y, $old_zoom, $new_zoom );
-    my ($x, $y) = gmap_tile_xy( $tile_x, $tile_y, $scale );
+```perl
+use Geo::Coordinates::GMap;
+my ($tile_x, $tile_y) = coord_to_gmap_tile( $lat, $lon, $zoom );
+my ($new_tile_x, $new_tile_y) = zoom_gmap_tile( $tile_x, $tile_y, $old_zoom, $new_zoom );
+my ($x, $y) = gmap_tile_xy( $tile_x, $tile_y, $scale );
+```
 
 # DESCRIPTION
 
@@ -26,7 +28,9 @@ This module makes this process simple and accurate.
 
 ## coord\_to\_gmap\_tile
 
-    my ($tile_x, $tile_y) = coord_to_gmap_tile( $lat, $lon, $zoom );
+```perl
+my ($tile_x, $tile_y) = coord_to_gmap_tile( $lat, $lon, $zoom );
+```
 
 Given a decimal latitude and longitude, and a Google Maps zoom level (0 being farthest away
 and 20 being the closest that I'm aware of that you can get), this function will return the
@@ -34,14 +38,18 @@ GMap tile location as a fractional x and y coordinate.
 
 ## zoom\_gmap\_tile
 
-    my ($new_tile_x, $new_tile_y) = zoom_gmap_tile( $tile_x, $tile_y, $old_zoom, $new_zoom );
+```perl
+my ($new_tile_x, $new_tile_y) = zoom_gmap_tile( $tile_x, $tile_y, $old_zoom, $new_zoom );
+```
 
 Converts fractional tile coordinates, as created by coord\_to\_gmap\_tile(), from one
 zoom level to another.
 
 ## gmap\_tile\_xy
 
-    my ($x, $y) = gmap_tile_xy( $tile_x, $tile_y, $scale );
+```perl
+my ($x, $y) = gmap_tile_xy( $tile_x, $tile_y, $scale );
+```
 
 Given a tile's x and y coordinate as provided by coord\_to\_gmap\_tile(), this function
 will return the pixel location within the tile.
@@ -65,7 +73,9 @@ Geo-Coordinates-GMap GitHub issue tracker:
 
 # AUTHOR
 
-    Aran Clary Deltac <bluefeet@gmail.com>
+```
+Aran Clary Deltac <bluefeet@gmail.com>
+```
 
 # LICENSE
 

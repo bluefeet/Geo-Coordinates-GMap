@@ -66,6 +66,7 @@
       }
    },
    "version" : "0.09",
+   "x_authority" : "cpan:BLUEFEET",
    "x_serialization_backend" : "JSON::PP version 4.02",
    "x_static_install" : 1
 }
